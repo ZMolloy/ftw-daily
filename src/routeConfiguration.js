@@ -6,6 +6,7 @@ import {
   ContactDetailsPage,
   EditListingPage,
   EmailVerificationPage,
+  FAQPage,
   InboxPage,
   LandingPage,
   ListingPage,
@@ -328,6 +329,13 @@ const routeConfiguration = () => {
       path: '/notfound',
       name: 'NotFoundPage',
       component: props => <NotFoundPage {...props} />,
+    },
+	
+	// Custome pages for Park N Stay
+	{
+      path: '/faq',
+      name: 'FAQPage',
+      component: FAQPage,
     },
 
     // Do not change this path!
